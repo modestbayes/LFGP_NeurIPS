@@ -1,32 +1,21 @@
 # Modeling Dynamic Functional Connectivity with Latent Factor Gaussian Processes
 
+Studying dynamic functional connectivity can lead to better understanding of the brain. Modeling dynamic functional connectivity is met with challenges of high dimensionality and noisy data. The common models used in neuroimaging studies such as principal component analysis and hidden Markov models are either non-probabilistic or inflexible. We present a probabilistic model to learn low-dimensional latent connectivity dynamics with Gaussian processes.
+
 ## LFGP
 
 Source code for the LFGP model:
 
-*blr.py* Bayesian linear regression with conjugate prior for factor loadings
+`blr.py` Bayesian linear regression with conjugate prior for factor loadings
 
-*factor_gp.py* LFGP model class
+`factor_gp.py` LFGP model class
 
-*inference.py* Gibbs sampling algorithm for posterior inference
+`inference.py` Gibbs sampling algorithm for posterior inference
 
-*metropolis.py* Metropolis random walk (used within Gibbs) for GP hyper-parameters
+`metropolis.py` Metropolis random walk (used within Gibbs) for GP hyper-parameters
 
-*mvn.py* Multivariate Gaussian conditional distribution and covariance decomposition
+`mvn.py` Multivariate Gaussian conditional distribution and covariance decomposition
 
-## notebooks
-
-Notebooks for experiments:
-
-i. posterior contraction
-
-ii. horseshoe prior
-
-iii. kernel decomposition
-
-iv. simulation study
-
-v. rat hippocampus LFP
 
 ## final_plots
 
