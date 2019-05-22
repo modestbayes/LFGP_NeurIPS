@@ -8,9 +8,9 @@ Source code for the LFGP model:
 
 `factor_gp.py` LFGP model class
 
-`blr.py` Bayesian linear regression with conjugate prior for factor loadings
-
 `inference.py` Gibbs sampling algorithm for posterior inference
+
+`blr.py` Bayesian linear regression with conjugate prior for factor loadings
 
 `metropolis.py` Metropolis random walk (used within Gibbs) for GP hyper-parameters
 
