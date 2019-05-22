@@ -14,9 +14,19 @@ Source code for the LFGP model:
 
 *mvn.py* Multivariate Gaussian conditional distribution and covariance decomposition
 
-### notebooks
+## notebooks
 
-Notebooks for experiments
+Notebooks for experiments:
+
+i. posterior contraction
+
+ii. horseshoe prior
+
+iii. kernel decomposition
+
+iv. simulation study
+
+v. rat hippocampus LFP
 
 ## final_plots
 
