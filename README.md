@@ -6,9 +6,9 @@ Studying dynamic functional connectivity can lead to better understanding of the
 
 Source code for the LFGP model:
 
-`blr.py` Bayesian linear regression with conjugate prior for factor loadings
-
 `factor_gp.py` LFGP model class
+
+`blr.py` Bayesian linear regression with conjugate prior for factor loadings
 
 `inference.py` Gibbs sampling algorithm for posterior inference
 
