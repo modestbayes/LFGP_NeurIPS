@@ -20,3 +20,10 @@ Source code for the LFGP model:
 ## final_plots
 
 High resolution plots
+
+
+## Notebooks
+
+`example.ipynb` Fitting an example model and plotting the results
+
+`simulation.ipynb` Simulating time series data with latent dynamic covariance for model comparison
